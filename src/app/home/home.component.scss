@@ -1,0 +1,58 @@
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+mat-toolbar{
+    border-radius: 3px;
+}
+
+.search-id {
+    text-align: center;
+    max-width: 500px;
+}
+
+.mat-form-field {
+    width: 150px;
+}
+
+.users-div {
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+mat-grid-list {
+    padding: 0;
+
+    mat-grid-tile {
+        background-color: rgb(238, 238, 238);
+        width: 50%;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p.name {
+            font-weight: bold;
+            font-size: 1vw;
+            color: purple;
+        }
+
+        p span {
+            font-size: 1.2rem;
+            color: black;
+        }
+
+        p.email {
+            font-size: .9rem;
+            flex-grow: 1;
+        }
+    }
+}

@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 0.3em 0;
+    width: 80%;
+    margin: auto;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    mat-toolbar {
+        display: flex;
+        justify-content: space-between;
+        
+        div {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+
+            a {
+                padding: 1em;
+
+                &:hover {
+                    background: darken(purple, 5%);
+                }
+            }
+        }
+    }
+}
+
+h1 {
+    padding-top: 1em;
+    width: 100%;
+    text-align: center;
+    color: purple;
+}

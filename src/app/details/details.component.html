@@ -1,0 +1,25 @@
+<header>
+    <mat-toolbar color="primary" class="navbar">
+        <div matRipple>
+            <a href="#" routerLink="/">Home</a>
+        </div>
+    </mat-toolbar>
+</header>  
+
+<div class="details-main">
+    <mat-card>
+        <mat-card-content>
+            <p class="name">{{first_name}} {{last_name}}</p>
+            <br>
+            <img src="{{avatar}}" alt="img">
+            <br><br>
+            <p class="email">{{ email }}</p>
+            <br>
+            <p><strong>Works at:</strong> {{company}}</p>
+            <br>
+            <p><strong>Website:</strong> {{url}}</p>
+            <br>
+            <p><strong>About:</strong> {{text}}</p>
+        </mat-card-content>
+    </mat-card>
+</div>
